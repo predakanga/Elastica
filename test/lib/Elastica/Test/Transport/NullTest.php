@@ -20,7 +20,7 @@ class NullTest extends BaseTest
     {
         // Creates a client with any destination, and verify it returns a response object when executed
         $client = $this->_getClient();
-        $connection = new Connection(array('transport' => 'Null'));
+        $connection = new Connection(array('transport' => 'NullTransport'));
         $client->setConnections(array($connection));
 
         $index = $client->getIndex('elasticaNullTransportTest1');
