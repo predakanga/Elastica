@@ -11,7 +11,7 @@ use Elastica\Response;
  * @package Elastica
  * @author James Boehmer <james.boehmer@jamesboehmer.com>
  */
-class Null extends AbstractTransport
+class NullTransport extends AbstractTransport
 {
     /**
      * Null transport.
